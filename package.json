@@ -1,0 +1,32 @@
+{
+  "name": "curso-fastiy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev:app": "parcel ./12-aplicacion/src/index.html -d ./12-aplicacion/build",
+    "build:app": "parcel build ./12-aplicacion/src/index.html -d ./12-aplicacion/build",
+    "test": "tap"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^9.7.6",
+    "axios": "^0.19.2",
+    "fastify": "^2.13.0",
+    "fastify-cors": "^3.0.3",
+    "fastify-static": "^2.7.0",
+    "firebase-admin": "^8.11.0",
+    "pino-pretty": "^4.0.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-router-dom": "^5.1.2",
+    "tailwindcss": "^1.2.0"
+  },
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4",
+    "tap": "^14.10.7",
+    "why-is-node-running": "^2.1.2"
+  }
+}
