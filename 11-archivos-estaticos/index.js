@@ -28,7 +28,10 @@ server.setNotFoundHandler(function (request, reply) {
 });
 
 server.listen(3000, (err) => {
-  if (err) process.exit(1);
+  if (err) {
+    console.error(err);
+    process.exit(1);
+  }
 
   console.log("Fastify corriendo en puerto 3000");
 });

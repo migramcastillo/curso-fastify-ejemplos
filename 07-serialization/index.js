@@ -44,7 +44,7 @@ server.post("/book", {
 server.listen(3000, (err) => {
   if (err) {
     console.error(err);
-    process.exit(0);
+    process.exit(1);
   }
 
   console.log("Fastify corriendo en el puerto 3000");

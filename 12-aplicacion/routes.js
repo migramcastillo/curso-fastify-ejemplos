@@ -122,12 +122,11 @@ module.exports = async (fastify, opts) => {
             ...request.body,
           },
         });
+      } else {
+        reply.code(400).send({
+          message: "El libro no existe",
+        });
       }
-
-      reply.code(400).send({
-        message: "El libro no existe",
-      });
-      return;
     }
   );
 
@@ -156,13 +155,11 @@ module.exports = async (fastify, opts) => {
           message: "El libro ha sido eliminado",
           key,
         });
-        return;
+      } else {
+        reply.code(400).send({
+          message: "Libro no valido",
+        });
       }
-
-      reply.code(400).send({
-        message: "Libro no valido",
-      });
-      return;
     }
   );
 

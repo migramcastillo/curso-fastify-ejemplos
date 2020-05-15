@@ -10,4 +10,4 @@
 node index.js
 ```
 
-Este demo muestra la implementación de la propiedad `register` de Fastify para declarar un plugin, en este caso también lo podemos utilizar para separar nuestrar rutas en otro archivo y colocarles un prefijo a todas las rutas.
+Este demo muestra la implementación de la propiedad `register` de Fastify para declarar un plugin, en este caso también lo podemos utilizar para separar nuestrar rutas en otro archivo y colocarles un prefijo a todas las rutas. También muestra como implementar plugins de la comunidad Fastify en tu aplicación

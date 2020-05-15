@@ -20,6 +20,6 @@ server.get("/", function (request, reply) {
 server.listen(3000, function (err) {
   if (err) {
     console.error(err);
-    process.exit(0);
+    process.exit(1);
   }
 });

@@ -10,4 +10,10 @@
 node index.js
 ```
 
+Para este demo se envia se necesita enviar en el `request.headers` un token mediante la propiedad `Authorization`.
+
+## ¿Cómo enviar request.headers con Postman?
+
+![Postman Headers](headers-postman.png)
+
 Este demo tiene el ejemplo de como utilizar `async` y `await` en hooks y el handler de una ruta.

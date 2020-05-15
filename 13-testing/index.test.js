@@ -152,7 +152,7 @@ tap.test("Fastify Firebase API", async (subtest) => {
     t.equal(body, null, "Respuesta debe ser nula");
   });
 
-  subtest.test("Eliminar libro por key error", async (t) => {
+  subtest.test("Eliminar libro por key que no existe", async (t) => {
     t.plan(1);
 
     const responseDel = await server.inject({
@@ -164,6 +164,22 @@ tap.test("Fastify Firebase API", async (subtest) => {
       responseDel.statusCode,
       400,
       "Respuesta DELETE debe ser 400 para key que no existe"
+    );
+  });
+
+  subtest.test("Actualizar libro por key que no existe", async (t) => {
+    t.plan(1);
+
+    const responseDel = await server.inject({
+      method: "PUT",
+      url: `/api/v1/book/${bookKey}`,
+      name: "Nuevo nombre",
+    });
+
+    t.equal(
+      responseDel.statusCode,
+      400,
+      "Respuesta PUT debe ser 400 para key que no existe"
     );
   });
 

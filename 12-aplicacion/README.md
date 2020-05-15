@@ -1,8 +1,8 @@
 # Proyecto Final
 
 [Parte 1 del curso](https://www.artisanfront.com/cursos/curso-fastify-desde-0/fastify-12-proyecto-final-1-de-3)
-[Parte 2 del curso](https://www.artisanfront.com/cursos/curso-fastify-desde-0/fastify-12-proyecto-final-2-de-3)
-[Parte 3 del curso](https://www.artisanfront.com/cursos/curso-fastify-desde-0/fastify-12-proyecto-final-3-de-3)
+[Parte 2 del curso](https://www.artisanfront.com/cursos/curso-fastify-desde-0/fastify-13-proyecto-final-2-de-3)
+[Parte 3 del curso](https://www.artisanfront.com/cursos/curso-fastify-desde-0/fastify-14-proyecto-final-3-de-3)
 
 [¿Cómo instalar los demos?](../README.md)
 
